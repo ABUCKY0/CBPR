@@ -1,0 +1,87 @@
+@font-face{src:"https://cdn.glitch.com/cdf2fd7f-a2ff-4ca5-b348-4bf76445d49b%2FCalibri%20Italic.ttf?v=1616523128327";font-family:calibri;}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 18px;
+  color:white;
+  --theme-color: #6699ff;
+  --nav-height:4rem;
+  --footer-height:6rem;
+  --bkground-color:#202b38;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.center {
+  display:grid;
+  place-items:center;
+}
+.center-legal{
+  display:grid;
+  place-items:center;
+  position: fixed;
+  width:100
+}
+nav {
+  width:100vw;
+  height:var(--nav-height);
+  background-color:var(--theme-color);
+  color:white;
+ }
+
+main {
+  height:calc(100vh - calc(var(--nav-height) + var(--footer-height)));
+  width:100vw;
+  overflow:auto;
+  padding:2rem;
+  background-color:#202b38;
+  
+}
+
+footer {
+  border-top:2px var(--theme-color) solid;
+  height:var(--footer-height);
+  background-color:var(--bkground-color);
+}
+
+hr {
+  border:none;
+  border-top:2px #000000 solid;
+  width:100%;
+}
+
+
+.preview  {
+  color:white;
+}
+
+.preview2  {
+  color:#000000;
+}
+.text{
+  color:white;
+}
+
+#account {
+  position:fixed;
+  padding:10px;
+  border-bottom-left-radius:20px;
+  top:0;
+  right:0;
+  z-index:999999;
+  background-color:white;
+  border-left:2px #444444 solid;
+  border-bottom:2px #444444 solid;
+  /*border-bottom-radius:20px;*/
+}
+
+#account p {
+  color:#000000;
+}

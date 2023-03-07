@@ -1,2 +1,0 @@
-# CBPR
-Chromebook Project Website
