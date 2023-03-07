@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CBPR - Ultraviolet</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <script src="/assets/script.js" defer></script>
+    <meta name="theme-color" content="#6699ff">
+    <link id="favicon" rel="shortcut icon" type="image/png" href="https://i.ibb.co/mNjcfXy/Dino-Blue-No-Background.png" />
+    <style>
+      ul {
+        list-style: none;
+      }
+
+      ul li {
+        font-size: larger;
+        color:var(--theme-main);
+        padding-top:1.5vh;
+      }
+
+      ul li a {
+        color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="account">
+      <div style="display:none;" id="whenSignedIn"><p></p><a href="#" id="signout">Sign Out</a></div>
+      <p id="whenSignedOut"><a href="#" id="signin">Sign In</a></p>
+    </div>
+    <nav class="center"><h1><a href="/apps.html" style="color:white; text-decoration:none;">The Chromebook Project</a></h1></nav>
+    <main style="display:grid;place-items:center;">
+      <h1>Ultraviolet</h1>
+      <hr/>
+      <ul style="text-align:center;margin:auto;">
+        <!-- Remove "Hidden" to add chat back once it works.-->
+        <li><a href="/appViewer?id=uv1" class="preview">Ultraviolet I</a></li>
+        <li><a href="/appViewer?id=uv2" class="preview">Ultraviolet II</a></li>
+         <li><a href="/appViewer?id=uv3" class="preview">Ultraviolet III</a></li>
+        <li><a href="/appViewer?id=replUV" class="preview">Ultraviolet IV</a></li>
+      </ul>
+    </main>
+    <footer class="center">
+      &copy; The Chromebook Project 2021
+      <a href="/legal.html" class="preview">Legal</a>
+    </footer>
+    <script src="https://cbpr-auth.glitch.me/auth.js"></script>
+    <script src="/assets/account.js"></script>
+    <script src="https://tcbp-analytics.glitch.me/analytics.js"></script>
+  </body>
+</html>

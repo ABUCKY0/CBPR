@@ -1,0 +1,14 @@
+[
+  {"name": "Chat", "url":"https://tcbp.glitch.me", "id": "chat", "description": "A Simple chat using socket.io. We noticed this page may not work in the frame, so click <a href='https://tcbp.glitch.me' style='color:#6699ff' target='_blank'>here</a> to go to the page."},
+  {"name": "Map", "url":"https://maptcp.glitch.me", "id": "map", "description": "A Simple map using a Google Embed (May not work on Certain Devices or Accounts)"},
+  {"name": "Calculator", "url":"https://calculatemath.glitch.me", "id": "calc", "description": "A Simple Calculator"},
+  {"name": "Notes", "url":"https://tcpnotes.glitch.me", "id": "note", "description": "A Simple Note App"},
+  {"name": "Perodic Table", "url":"https://periodictabletcbp.glitch.me", "id": "periodictable","description": "The Perodic Table of Elements"},
+  {"name":"School Bell Schedule", "url":"https://school-bell-schedule.glitch.me", "id":"bellschedule","description":"The School Bell Schedule website made by <a href='https://glitch.com/@hman124' style='color:#69f'>hman124</a>"},
+  {"name": "Numworks Graphing Calculator", "url":"https://numworks-calc.glitch.me", "id": "graphcalc", "description": "An Extensive Graphing Calculator Made by <a href='https://numworks.com'>Numworks</a>"},
+{"name": "Dice Roller", "url": "/games/dice/dice.html", "id": "dice", "description": "Dice Roller by <a href='https://gist.github.com/jwygralak67/a7c6844bb175916287c6f780eecca549'>@jwygralak67</a>" },
+  {"name": "Ultraviolet", "url": "https://cool-app-testing.glitch.me/", "id": "uv1", "description": "Ultraviolet App by our very own <a href='https://glitch.com/@hman124'>@hman124</a>" },
+   {"name": "Ultraviolet II", "url": "https://reminiscent-same-neighborhood.glitch.me/", "id": "uv2", "description": "Ultraviolet App by our very own <a href='https://glitch.com/@hman124'>@hman124</a>" },
+  {"name": "Ultraviolet III", "url": "https://pickle-positive-sauce.glitch.me/", "id": "uv3", "description": "Ultraviolet App by our very own <a href='https://glitch.com/@hman124'>@hman124</a>" },
+  {"name":"Ultraviolet IV","url": "https://ultraviolet.buckneraaron07.repl.co/", "id": "replUV", "description": "Ultraviolet By <a src=\"https://github.com/titaniumnetwork-dev/Ultraviolet\">@TitaniumNetwork-dev</a>"}
+]

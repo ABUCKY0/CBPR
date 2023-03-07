@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <link id="favicon" rel="shortcut icon" type="image/png" href="https://i.ibb.co/mNjcfXy/Dino-Blue-No-Background.png" />
+
+  <head>
+    
+    <!-- this html file will convert markdown to html for most of the files on the legal page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  </head>
+  <body>
+    <a href="/legal/">&lt;- Back to legal page</a>
+    <div id="content"></div>
+    <script src="/assets/showdown.min.js"></script>
+    <script>
+    const filename = window.location.hash.replace("#", "");
+    if(!/^\s*$/.test(filename)){
+      document.title = filename.replace(/(.\/)|(.md)/g, "").replace(/_/g, " ").toLowerCase();
+      fetch(filename).then(r=>r.text())
+      .then(data => {
+        var converter = new showdown.Converter();
+        document.getElementById("content").innerHTML = converter.makeHtml(data);
+      });
+    } 
+    </script>
+  </body>
+</html>
