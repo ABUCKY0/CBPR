@@ -1,8 +1,8 @@
 [
-  {"name": "googledino", "url":"https://chromedinogame.glitch.me", "id": "gdino", "description": "A standard version of the Google Dino Game"},
+  {"name": "googledino", "url":"/games/aarondino/", "id": "gdino", "description": "A standard version of the Google Dino Game"},
   {"name": "hangman", "url": "/games/hangman/", "id": "hangman", "description": "50 states hangman"},
   {"name": "Snake", "url": "https://snaketcp.glitch.me", "id":"snake", "description": "A slimy snake game"},
-  {"name": "Pac-Man", "url": "https://pac-manproject.glitch.me", "id": "pacman", "description": "Standard Pac-man"},
+  {"name": "Pac-Man", "url": "/games/pacman", "id": "pacman", "description": "Standard Pac-man"},
   {"name": "3-D Google Dino", "url": "https://googledino3d.glitch.me/dino3d/", "id": "dino3d", "description": "Awesome 3d google dino by <a href='https://github.com/priler/dino3d'>@Priler</a>"},
   {"name": "connect 4", "url": "/games/connect4/index.html", "id": "connect4", "description": "A very connecty four"},
   {"name": "Hangman Millitary phonetics version", "url": "https://hangmanmilphotcp.glitch.me/", "id": "hmilpv", "description": "Hangman, but more... military"},
@@ -12,6 +12,5 @@
   {"name": "Classic Minecraft", "url": "https://cbprmineunblocked.glitch.me/", "id": "minecraft", "description": "A Classic Minecraft game created by the team at MOJANG. Unblocked by The Chromebook Project"},
   {"name": "Ping Pong for Loners", "url": "https://alonepingpong.glitch.me/", "id": "pingpong", "description": "Ping Pong For Loners By: <a href='https://github.com/rishabhp/ping-pong'>@rishabhp</a>" },
   {"name": "Game of Life", "url": "https://gameoflifetcp.glitch.me", "id": "gameoflife", "description": "John Conways Game of Life"},
-  {"name": "Dino Without Hacks", "url": "https://no-internet-dino.glitch.me/", "id": "nohacksdino", "description": "A Suprisingly realistic Dino-Game with no 'enable hacks' button." },
    {"name": "Cookie CLicker", "url": "https://Cookie-clicker-account.glitch.me/", "id": "cookie", "description": "A Cookie Clicker game Forked by our very own @hman124." }
    ]
